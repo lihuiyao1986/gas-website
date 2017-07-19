@@ -1,0 +1,12 @@
+@charset "utf-8";
+$primary-color:rgb(69, 157, 238);
+
+$swiperHeight: 250px;
+
+$navHeight:55px;
+
+$lineColor:rgb(227, 226, 226);
+
+@function primaryColorWithAlpha($alpha) {
+  @return rgba(69, 157, 238,$alpha);
+}

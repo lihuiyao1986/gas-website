@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+.article-content{
+  .article-content-top{
+     height: 40px;
+     line-height: 40px;
+     .article-menu-name{
+       display: inline-block;
+       font-size: 18px;
+       color: $primary-color;
+     }
+
+     .el-breadcrumb{
+        display: inline-block;
+        float: right;
+        line-height: 40px;
+        height: 40px;
+     }
+  }
+}

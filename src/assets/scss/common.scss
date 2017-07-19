@@ -1,0 +1,70 @@
+@charset "utf-8";
+@import "_variable";
+/*=====公共样式部分=====*/
+body {
+  height: 100%;
+  background: white;
+  overflow: hidden;
+  color:#414141;
+  position:relative;
+  overflow-y:auto;
+  overflow-x:auto;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+/*img{max-width:100% !important; height:auto !important;}*/
+
+.aligin-center{
+  margin:0 auto;
+  max-width: 998px;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix {
+  z-index: 1;
+}
+
+.single-text{
+   white-space:nowrap;
+   overflow:hidden;
+   text-overflow:ellipsis;
+}
+
+.clearfix:after{
+  content:".";
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden
+}
